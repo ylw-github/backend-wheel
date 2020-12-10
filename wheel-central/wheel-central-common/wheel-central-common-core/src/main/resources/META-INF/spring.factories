@@ -1,0 +1,6 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.ylw.central.common.core.config.BannerInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ylw.central.common.core.feign.fallback.UserServiceFallbackFactory,\
+com.ylw.central.common.core.lock.LockAspect
